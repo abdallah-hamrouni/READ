@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contenu du PDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="pdf-content" class="pdf-content"></div>
+    <button id="start-reading" class="start-reading-btn">Commencer la lecture</button>
+    <div id="texte-container"  class="texte-container" data-texte="{{ texte|safe }}"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

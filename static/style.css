@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Ajout de l'image en arrière-plan */
+    background-image: url('https://institutrice.com/wp-content/uploads/2019/10/h%C3%A9t%C3%A9rog%C3%A9n%C3%A9it%C3%A9-des-%C3%A9l%C3%A8ves-1024x683.png');
+    background-size: cover; /* L'image couvre toute la zone de la page */
+    background-repeat: no-repeat; /* L'image ne se répète pas */
+    background-position: center center; /* L'image est centrée */
+    background-attachment: fixed;
+}
+
+
+.pdf-content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.start-reading-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    max-width: 200px;
+}
+
+.start-reading-btn:hover {
+    background-color:black;
+}
+
+.texte-container {
+    display: none; /* Caché par défaut, à afficher via JavaScript */
+}
